@@ -1,27 +1,69 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+  <title>Elm</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/moon.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
 
-		<script src="dist/reveal.js"></script>
+		<style>
+			body {
+				color: white;
+			}
+
+			.quad {
+				width: 100vw;
+				height: 100vh;
+				display: grid;
+				grid-template-columns: 40% 40%;
+				grid-template-rows: 40% 40%;
+			}
+
+			.quad>* {
+				display: flex;
+				align-content: center;
+				align-items: center;
+			}
+		</style>
+
+</head>
+<body>
+<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<div class="quad">
+
+						<div class="fragment">
+							<h2>Hello</h2>
+						</div>
+
+						<div class="fragment">
+							<h2>...welcome...</h2>
+						</div>
+
+						<div class="fragment">
+							<h2>...to Elm</h2>
+						</div>
+
+						<div class="fragment">
+							<img src="elm-logo.svg" />
+						</div>
+
+					</div>
+				</section>
+
+			</div>
+</div>
+
+<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
