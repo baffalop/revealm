@@ -50,17 +50,20 @@
       color: white;
     }
 
-    .reveal section img {
+    .reveal section img, .reveal section video, .reveal section iframe {
       /*margin: 15px 0px;*/
       background: transparent;
       border: none;
       box-shadow: none;
+      margin: 0;
+      max-width: 100%;
+      max-height: 100%;
+      margin-bottom: -10px;
     }
 
     .reveal pre {
       max-width: 90%;
       width: auto;
-      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.22);
     }
 
     .reveal pre code {
@@ -111,8 +114,16 @@
 
     .terminal {
       background-color: #2b303b;
-      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.22);
       max-width: 90%;
+      max-height: 90%;
+      padding: 0.4em;
+    }
+
+    .box {
+      padding: 0;
+      max-width: 90%;
+      max-height: 90%;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.22);
     }
 
   </style>
