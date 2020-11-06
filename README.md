@@ -1,4 +1,4 @@
-# Revear
+# Revealm
 
 My personal styled and tweaked [reveal.js](https://revealjs.com/) instance, for use as a base for presentations.
 

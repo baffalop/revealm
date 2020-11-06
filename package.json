@@ -1,5 +1,5 @@
 {
-  "name": "revear",
+  "name": "revealm",
   "version": "3.9.2",
   "description": "Base project for reveal.js presentations",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/baffalop/revear.git"
+    "url": "https://github.com/baffalop/revealm.git"
   },
   "engines": {
     "node": ">=10.0.0"
