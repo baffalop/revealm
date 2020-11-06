@@ -1,34 +1,24 @@
 {
-  "name": "reveal.js",
-  "version": "4.1.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "https://revealjs.com",
-  "subdomain": "revealjs",
-  "main": "dist/reveal.js",
-  "module": "dist/reveal.esm.js",
-  "license": "MIT",
+  "name": "revear",
+  "version": "3.9.2",
+  "description": "Base project for reveal.js presentations",
+  "private": true,
   "scripts": {
     "test": "gulp test",
     "start": "gulp serve",
     "build": "gulp"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Nikita Gaidakov",
+    "email": "nikita.gaidakov@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "https://github.com/baffalop/revear.git"
   },
   "engines": {
     "node": ">=10.0.0"
   },
-  "keywords": [
-    "reveal",
-    "slides",
-    "presentation"
-  ],
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
