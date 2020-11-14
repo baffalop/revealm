@@ -1,6 +1,6 @@
 {
   "name": "revealm",
-  "version": "3.9.2",
+  "version": "4.0.2",
   "description": "Base project for reveal.js presentations",
   "private": true,
   "scripts": {
